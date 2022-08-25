@@ -1,8 +1,12 @@
-import Markdown from "./markdown";
+import Editor from "./editor";
+import Preview from "./preview";
 
 function App() {
   return (
-     <Markdown/>
+    <div>
+    <Editor/>
+    </div>
+
   );
 }
 
