@@ -2,19 +2,9 @@
 body{
     background-color: #161b22;
     color: rgb(241, 231, 231);
-    font-family: 'Raleway', 'Poppins',sans-serif;
+    font-family: 'Poppins','Raleway',sans-serif;
 }
 
-/* .App-container{
-    width: 100%;
-    /* margin: 50px auto; */
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
-
-    /* text-align: center; */
-/* }  */
 
 .editorWrapper{
     width: 100%;
@@ -83,6 +73,10 @@ pre,code{
     background-color:  #21262d;
 }
 
+pre{
+    border-radius: 10px;
+    padding: 15px;
+}
 
 table {
     font-family: Arial, Helvetica, sans-serif;
@@ -105,16 +99,55 @@ table {
     text-align: left;
     background-color: #161b22;
   }
-  /* #484f58
-  #21262d
-  #161b22
-  #484f58
-  #0d1117
 
-  //table */
   
  
 
 img{
     width: 100%;
 }
+
+
+@media only screen and (max-width: 800px) {
+    #preview{
+        width: 100%;
+        background-color: #161b22;
+    }
+    .preview-tag{
+        box-sizing: border-box;
+        border: 3px solid #21262d;
+        width: 81%;
+        margin:0 auto;
+        padding: 10px ;
+        background-color: #383d42;
+    }
+  }
+@media only screen and (max-width: 600px) {
+
+    .previewWrapper{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .preview-tag{
+        width: 100%;
+    }
+    h1{
+        font-size: 1.3em;
+        font-weight: 400;
+    }
+    h2{
+        font-size: 1em;
+        font-weight: 400;
+    }
+
+    .editorWrapper textarea {
+        width: 80%;
+    }
+
+    .editor-tag{
+        width: 77%;
+    }
+
+
+
+  }
