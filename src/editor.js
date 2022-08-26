@@ -38,20 +38,19 @@ class Editor extends Component{
 
     render(){
     
-            
-       
         return (
-          <div >
-           
-           
+          <div className='App-container'>
+
             <div className='editorWrapper'>
+               <div className='editor-tag'>Editor</div>
                 <textarea id="editor" onKeyUp={this.updateText} defaultValue={this.state.text}>
                     {/* text for markup conversion goes here  */}
                 </textarea>
                 
              </div>
-                
-            <div className='previewWrapper'>
+             
+            <div className='preview-tag'>Preview</div> 
+            <div className='previewWrapper'>            
                {this.preview()}
             </div>
                          
@@ -61,9 +60,5 @@ class Editor extends Component{
     }
 }
 
-
-// Editor.defaultProps = {
-//   text : 
-// }
 
 export default Editor
