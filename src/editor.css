@@ -62,10 +62,12 @@ body{
 
 #preview h1,h2{
     border-bottom: 1px solid #484f58;
+    font-weight: 400;
 }
 
-#Preview h3{
-    background-color: #484f58;
+
+ h3{
+    font-weight: 300;
 }
 
 
@@ -121,6 +123,10 @@ img{
         padding: 10px ;
         background-color: #383d42;
     }
+
+    table{
+        width: 80%;
+    }
   }
 @media only screen and (max-width: 600px) {
 
@@ -147,6 +153,12 @@ img{
     .editor-tag{
         width: 77%;
     }
+
+    table {
+
+        width: 100%;
+ 
+      }
 
 
 

@@ -48,9 +48,9 @@ class Editor extends Component{
                 </textarea>
                 
              </div>
-             
-            <div className='preview-tag'>Preview</div> 
-            <div className='previewWrapper'>            
+
+           <div className='preview-tag'>Preview</div>   
+            <div className='previewWrapper'>          
                {this.preview()}
             </div>
                          
